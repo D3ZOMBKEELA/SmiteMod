@@ -1,0 +1,11 @@
+.classpath
+.project
+build.gradle
+gradlew*
+gradle/
+eclipse/
+build/
+bin/
+.settings/
+.gradle/
+.git/
