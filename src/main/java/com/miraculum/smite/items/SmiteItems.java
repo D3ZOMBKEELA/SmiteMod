@@ -1,5 +1,7 @@
 package com.miraculum.smite.items;
 
+import com.yep.nope.items.BasicItem;
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.resources.model.ModelResourceLocation;
 import net.minecraft.item.Item;
@@ -17,16 +19,16 @@ public class SmiteItems
 	 * In init() type:
 	 * 	registerModel(testItem, "testItem");
 	 */
-	
+	public static Item basicItem;
 	
 	public static void preInit()
 	{
-		
+		initAndRegister(basicItem = new BasicItem(), "basicItem");
 	}
 	
 	public static void init()
 	{
-		
+		registerModel(basicItem, "basicItem");
 	}
 	
 	private static void initAndRegister(Item item, String name)
