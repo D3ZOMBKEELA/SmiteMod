@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 item.healthPot.name=Health Potion
 item.physPot.name=Potion of Physical Might
 item.elixirPower.name= Elixir of Power
 item.elixirDefence.name= Elixir of Defence
+=======
+entity.smitemod.Minion.name=Minion
+item.healthPot.name=Health Potion
+>>>>>>> origin/master

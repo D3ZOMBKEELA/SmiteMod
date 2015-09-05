@@ -1,6 +1,7 @@
 package com.miraculum.smite;
 
 import com.miraculum.smite.blocks.SmiteBlocks;
+import com.miraculum.smite.entities.SmiteEntities;
 import com.miraculum.smite.items.SmiteItems;
 
 import net.minecraftforge.fml.common.Mod;
@@ -28,6 +29,7 @@ public class SmiteMod
 	{
 		SmiteBlocks.init();
 		SmiteItems.init();
+		SmiteEntities.init();
 	}
 	
 	@EventHandler
