@@ -19,9 +19,11 @@ public class SmiteBlocks
 	 * 	registerModel(testBlock, "testBlock");
 	 */
 	
+	public static Block testBlock;
+	
 	public static void preInit()
 	{
-		
+	//	initAndRegister(towerringa )
 	}
 	
 	public static void init()
