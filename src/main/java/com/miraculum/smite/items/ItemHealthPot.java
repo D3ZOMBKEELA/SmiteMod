@@ -10,23 +10,17 @@ import net.minecraft.world.World;
 
 public class ItemHealthPot extends ItemFood
 {
-
 	public ItemHealthPot()
 	{
 		super(0, 0.0F, false);
-
-
 		this.setAlwaysEdible();
 		this.maxStackSize=5;
 		this.setCreativeTab(CreativeTabs.tabFood);
 		this.setPotionEffect(Potion.regeneration.id, 25 , 0, 1.0f);
-		
-		
 	}
 
 	public int getMaxItemUseDuration(ItemStack stack)
 	{
 		return 1;
 	}
-
 }
