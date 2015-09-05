@@ -19,15 +19,24 @@ public class SmiteItems
 	 * 	registerModel(testItem, "testItem");
 	 */
 	public static Item healthPot;
+	public static Item physPot;
+	public static Item elixirPower;
+	public static Item elixirDefence;
 	
 	public static void preInit()
 	{
 		initAndRegister(healthPot = new ItemHealthPot(), "healthPot");
+		initAndRegister(physPot = new ItemPhysicalPot(), "physPot");
+		initAndRegister(elixirPower = new ItemElixirPower(), "elixirPower");
+		initAndRegister(elixirDefence = new ItemElixirDefence(), "elixirDefence");
 	}
 	
 	public static void init()
 	{
 		registerModel(healthPot, "healthPot");
+		registerModel(physPot, "physPot");
+		registerModel(elixirPower, "elixirPower");
+		registerModel(elixirDefence, "elixirDefence");
 	}
 	
 	private static void initAndRegister(Item item, String name)
