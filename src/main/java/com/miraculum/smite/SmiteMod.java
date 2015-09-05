@@ -11,7 +11,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = "smitemod", name = "Smite Mod", version = "0.0b")
+@Mod(modid = "smitemod", name = "Smite Mod", version = "0.0c")
 public class SmiteMod
 {
 	@Instance("smitemod")
